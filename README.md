@@ -1,1 +1,1 @@
-# continuacao-do-projeto-de-imagem
+# utilizando-a-responsivivdade-em-aplica-es

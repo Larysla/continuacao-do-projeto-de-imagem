@@ -1,10 +1,13 @@
+
+Original file line number	Diff line number	Diff line change
+@@ -1,208 +1,222 @@
 <!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LaryBooks</title>
+  <title>AluraBooks</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,19 +26,19 @@
       <ul class="lista-menu">
         <li class="lista-menu__titulo">Categorias</li>
         <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Romance</a>
+          <a href="#" class="lista-menu__link">Programação</a>
         </li>
         <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Misterio</a>
+          <a href="#" class="lista-menu__link">Front-end</a>
         </li>
         <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Poder</a>
+          <a href="#" class="lista-menu__link">Infraestrutura</a>
         </li>
         <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Encorajamento</a>
+          <a href="#" class="lista-menu__link">Business</a>
         </li>
         <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Suspense</a>
+          <a href="#" class="lista-menu__link">Design & UX</a>
         </li>
       </ul>
       <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
@@ -60,20 +63,20 @@
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide"><img src="img/como fazer amigos e influenciar.webp"
+        <div class="swiper-slide"><img src="img/Apachekafka.svg"
             alt="Livro sobre apache kafka e spring boot da alura books"></div>
-        <div class="swiper-slide"><img src="img/hipotese do amor.webp"
+        <div class="swiper-slide"><img src="img/Liderança.svg"
             alt="Livro sobre liderança em design design da alura books"></div>
-        <div class="swiper-slide"><img src="img/jade eyre.webp" alt="Livro sobre javascript assertivo da alura books">
+        <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo da alura books">
         </div>
         <div class="swiper-slide">
-          <img src="img/a lei da atracao.webp" alt="Livro Guia front end" />
+          <img src="img/Guia Front-end.svg" alt="Livro Guia front end" />
         </div>
         <div class="swiper-slide">
-          <img src="img/a hora azul.webp" alt="Livro sobre portugol" />
+          <img src="img/Portugol.svg" alt="Livro sobre portugol" />
         </div>
         <div class="swiper-slide">
-          <img src="img/ate o verao terminar.webp" alt="Livro sobre acessibilidade" />
+          <img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade" />
         </div>
       </div>
 
@@ -118,15 +121,15 @@
 
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide"><img src="img/as-coisas-que-nunca-superamos.webp"
+        <div class="swiper-slide"><img src="img/ApacheKafka.svg"
             alt="Livro sobre apache kafka e spring boot da alura books"></div>
-        <div class="swiper-slide"><img src="img/e nao sobrou nenhum.webp" alt="Livro sobre liderança em design da alura books">
+        <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design da alura books">
         </div>
-        <div class="swiper-slide"><img src="img/e assim que comeca.webp" alt="Livro sobre javascript assertivo da alurabooks">
+        <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo da alurabooks">
         </div>
-        <div class="swiper-slide"><img src="img/e-assim-que-acaba.webp" alt="Livro Guia front end"></div>
-        <div class="swiper-slide"><img src="img/quem pensa enriquece.webp" alt="Livro sobre portugol"></div>
-        <div class="swiper-slide"><img src="img/quebrando o gelo.webp" alt="livro sobre acessibilidade"></div>
+        <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro Guia front end"></div>
+        <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
+        <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
       </div>
 
       <!-- If we need navigation buttons -->
@@ -141,8 +144,8 @@
         <div class="descrição">
           <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
           <h3 class="descrição__titulo">Autora do Mês</h3>
-          <h2 class="descrição__titulo-livro">Gabrielly Almeida</h2>
-          <p class="descrição__texto"></p>Famosa escritora de romances e suspense, conhecida pelo seu primeiro best-seller O céu e a Carroça <div class=""></div>.
+          <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
+          <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.
           </p>
         </div>
         <!-- 2º coluna -->
@@ -200,13 +203,10 @@
     </p>
     <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
   </section>
-
   <hr />
-
   <footer class="rodapé">
     <h2 class="rodapé__titulo">Grupo Alura</h2>
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
     const swiper = new Swiper(".swiper", {
@@ -219,5 +219,3 @@
     });
   </script>
 </body>
-
-</html>
